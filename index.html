@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tim Almacen</title>
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" /> 
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <!-- <img src=""> -->
+      <button class="nav-toggle" aria-label="toggle-navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+            <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Introduction -->
+  <section class="intro" id="home">
+    <h1 class="section__title section__title--intro">
+      Hello, I'm <strong>Tim Almacen</strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">front-end web developer</p>
+    <img src="img/tim.png" alt="header-image" class="intro__img">
+  </section>
+
+  <!-- my services -->
+  <section class="my-services" id="services">
+    <h2 class="services__title section__title--services">What I Do</h2>
+    <div class="services">
+      <div class="service">
+        <h3>WordPress Sites</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+      </div>
+      <!-- / services-->
+
+      <div class="service">
+        <h3>Fully Responsive</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+      </div> <!-- / service -->
+  
+      <div class="service">
+        <h3>Wireframe to Website</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+      </div>
+      <!-- / service -->
+    </div>
+    <!-- / services -->
+
+    <a href="#work" class="btn">Work</a>
+  </section>
+  <!-- about me-->
+  <section class="about-me" id="about">
+    <h2 class="section__title section__title--about">Who I Am</h2>
+    <p class="section__subtitle section__subtitle--about">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+      tempor incididunt ut labore et dolore magna aliqua. 
+    </p>
+
+    <div class="about-me__body">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+    </div>
+
+    <img src="img/aboutme.png" alt="timabout" class="about-me__img">
+  </section>
+
+  <!-- my work -->
+  <section class="my-work" id="work">
+    <h2 class="section__title section__title--work">My work</h2>
+    <p class="section__subtitle section__subtitle--work">Samples of my work</p>
+
+    <div class="portfolio">
+      <!-- Portfolio item 01 -->
+      <a href="https://sparrow-todo-list.netlify.app/" class="portfolio__item">
+        <img src="img/todolist.png" alt="todolist app" class="portfolio__img">
+    </a><!-- Portfolio item 01 -->
+    <a href="https://appointment-app-api.netlify.app/" class="portfolio__item">
+        <img src="img/appointment.png" alt="appointment app" class="portfolio__img">
+    </a><!-- Portfolio item 01 -->
+    <a href="http://www.goodnewsdelivery.com/tim/tronco/index.html" class="portfolio__item">
+        <img src="img/troncosite.png" alt="resume site" class="portfolio__img">
+    </a><!-- Portfolio item 01 -->
+    <a href="http://goodnewsdelivery.com/arnie/restaurant1.html" class="portfolio__item">
+        <img src="img/arnie.png" alt="restaurant site" class="portfolio__img">
+    </a><!-- Portfolio item 01 -->
+    <a href="https://badgerbadgers.github.io/star-wars-api-display-app/" class="portfolio__item">
+        <img src="img/swapi.png" alt="api data site" class="portfolio__img">
+    </a><!-- Portfolio item 01 -->
+    <a href="https://nup.goodnewsdelivery.com/" class="portfolio__item">
+        <img src="img/nup.png" alt="e commerce demo site" class="portfolio__img">
+    </a>
+    </div>
+  </section>
+  <!-- footer -->
+        <!-- Footer -->
+        <footer>
+          <!-- replace with your own email address -->
+          <a href="mailto:tim.almacen@gmail.com" class="footer__link">tim.almacen@gmail.com</a>
+          <ul class="social-list">
+              <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/timothy-almacen/">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com">
+                  <i class="fab fa-github"></i>
+                </a></li>
+          </ul>
+      </footer>
+</body>
+</html>
