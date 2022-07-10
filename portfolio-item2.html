@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tim Almacen</title>
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" /> 
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="img/codebracket.png">
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <li class="nav__item"><a href="index.html#home" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+            <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+            <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+        
+  <section class="intro">
+    <h1 class="section__title section__title--intro">
+      Appointment<strong>App</strong>
+    </h1>
+    <!-- <a href="https://sparrow-todo-list.netlify.app/" class="portfolio__item"> -->
+    <p class="section__subtitle section__subtitle--intro">
+    This app gets randomized API data and display that info as an appointment.
+    </p>
+    <img src="img/appointment.png" alt="ctd todo list" class="intro__img">
+  </section>
+  <div class="portfolio-item-individual">
+    <p>
+      An app that gets data and will display that data as a random number of appointments.
+      <a href="https://appointment-app-api.netlify.app" class="intro__img">
+        <img src="img/portfolioitem2.png" alt="todolist app">
+      </a>
+    <p>
+      Each user displayed on the app has a time for that appointment and a delete button when the meeting is done.
+      
+    </p>
+    <p>
+      There are two tabs that allow for navigation,
+      the 'current meetings' tab shows active meetings.
+      The 'deleted meetings' tab shows any deleted meetings.
+    </p>
+    </p>
+    <p>
+      There is also a counter that keeps track of the number of meetings the user has for the day. Built using React hooks and deployed using Netlify.
+    </p>
+  </div>
+        
+        
+  <!-- footer -->
+  <footer class="footer">
+    <a href="mailto:tim.almacen@gmail.com" class="footer__link">hi@tim-almacen.com</a>
+    <ul class="social-list">
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://www.linkedin.com/in/timothy-almacen/">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://github.com">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
+  <!-- js file -->
+      <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tim Almacen</title>
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" /> 
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="img/codebracket.png">
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <li class="nav__item"><a href="index.html#home" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+            <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+            <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+        
+  <section class="intro">
+    <h1 class="section__title section__title--intro">
+      Tim's<strong>Todo List</strong>
+    </h1>
+    <!-- <a href="https://sparrow-todo-list.netlify.app/" class="portfolio__item"> -->
+    <p class="section__subtitle section__subtitle--intro">
+      A todo list that get API data and lets a user add, edit and delete a todo!</p>
+    <img src="img/todolist.png" alt="ctd todo list" class="intro__img">
+  </section>
+  <div class="portfolio-item-individual">
+    <p>
+      This todo list is gets data from Airtable (an external API source) and using React hook displays that data in the app.
+      <a href="https://sparrow-todo-list.netlify.app/" class="intro__img">
+        <img src="img/portfolioitem1.png" alt="todolist app">
+      </a>
+    <p>
+      The user is able to add, delete and edit a todo by typing in the input field, clicking the trash or pencil icon.
+      These features also update the Airtable API by using the browser's built in fetch method as different requests types (POST, UPDATE, DELETE).
+    </p>
+    <p>
+      A checkbox let's a user add a checkmark next to the todo and deleting or adding a todo will update a counter at the bottom of app. The app is
+      fully responsive on all media devices and currently deployed using Netlify.
+    </p>
+  </div>
+        
+        
+  <!-- footer -->
+  <footer class="footer">
+    <a href="mailto:tim.almacen@gmail.com" class="footer__link">hi@tim-almacen.com</a>
+    <ul class="social-list">
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://www.linkedin.com/in/timothy-almacen/">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://github.com">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
+  <!-- js file -->
+      <script src="script.js"></script>
+</body>
+</html>
